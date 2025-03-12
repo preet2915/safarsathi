@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SAFARSATHI - Explore India</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #0078d4;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        .state-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+            padding: 20px;
+        }
+        .state-card {
+            background: white;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            text-align: center;
+            border-radius: 8px;
+        }
+        .state-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .state-card h2 {
+            margin: 10px 0 5px;
+        }
+        .state-card a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 12px;
+            background-color: #0078d4;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>SAFARSATHI - Explore Famous Places Across India</h1>
+    <p>Discover the most iconic destinations in every state and union territory of India.</p>
+</header>
+
+<section class="state-grid">
+
+    <!-- All States & UTs -->
+    <div class="state-card">
+        <img src="https://whc.unesco.org/uploads/thumbs/site_0252_0008-1200-630-20250108121530.jpg" alt="Taj Mahal">
+        <h2>Uttar Pradesh</h2>
+        <p><strong>Famous Place:</strong> Taj Mahal</p>
+        <a href="taj-mahal.html">View Details</a>
+    </div>
+
+    <div class="state-card">
+        <img src="https://miro.medium.com/v2/resize:fit:603/1*fYA-b-KA9UUqPL2OsDYkQw.png" alt="Hawa Mahal">
+        <h2>Rajasthan</h2>
+        <p><strong>Famous Place:</strong> Hawa Mahal</p>
+        <a href="hawa-mahal.html">View Details</a>
+    </div>
+
+    <div class="state-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-_mzuEhbqJZSb2xXfO3OwFX2JsYJwt5udTQ&s" alt="Lonavala">
+        <h2>Maharashtra</h2>
+        <p><strong>Famous Place:</strong> Lonavala</p>
+        <a href="lonavala.html">View Details</a>
+    </div>
+
+    <div class="state-card">
+        <img src="https://media.istockphoto.com/id/185837323/photo/mysore-palace-at-night.jpg?s=612x612&w=0&k=20&c=9gsRbxSI0rXuAxpOE9LZZG1ZhAkRhRirVFqC2esOWfQ=" alt="Mysore Palace">
+        <h2>Karnataka</h2>
+        <p><strong>Famous Place:</strong> Mysore Palace</p>
+        <a href="mysorepalace.html">View Details</a>
+    </div>
+
+    <div class="state-card">
+        <img src="https://www.trawell.in/blog/wp-content/uploads/2024/03/ooty-main-730x410.jpg" alt="ooty">
+        <h2>Tamil Nadu</h2>
+        <p><strong>Famous Place:</strong>Ooty</p>
+        <a href="ooty.html">View Details</a>
+    </div>
+
+    <div class="state-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/The_Golden_Temple_of_Amrithsar_7.jpg/800px-The_Golden_Temple_of_Amrithsar_7.jpg" alt="Golden Temple">
+        <h2>Punjab</h2>
+        <p><strong>Famous Place:</strong> Golden Temple</p>
+        <a href="golden-temple.html">View Details</a>
+    </div>
+
+    <div class="state-card">
+        <img src="https://nomadsofindia.com/wp-content/uploads/2023/11/City-of-Darjeeling.jpg" alt="Sundarbans">
+        <h2>West Bengal</h2>
+        <p><strong>Famous Place:</strong> Sundarbans</p>
+        <a href="sundarbans.html">View Details</a>
+    </div>
+
+    <div class="state-card">
+        <img src="https://static.toiimg.com/thumb/imgsize-23456,msid-117605123,width-600,resizemode-4/117605123.jpg" alt="hydrabad">
+        <h2>Telangana</h2>
+        <p><strong>Famous Place:</strong>hydrabad</p>
+        <a href="hydrabad.html">View Details</a>
+    </div>
+
+    <div class="state-card">
+        <img src="https://cdn.britannica.com/20/189820-050-D650A54D/Red-Fort-Old-Delhi-India.jpg" alt="Qutub Minar">
+        <h2>Delhi</h2>
+        <p><strong>Famous Place:</strong>red fort</p>
+        <a href="redfort.html">View Details</a>
+    </div>
+
+    <div class="state-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Pachmarhi_valley_Madhya_Pradesh_INDIA.jpg/800px-Pachmarhi_valley_Madhya_Pradesh_INDIA.jpg" alt="Khajuraho Temples">
+        <h2>Madhya Pradesh</h2>
+        <p><strong>Famous Place:</strong> Panchmarhi</p>
+        <a href="panchmarhi.html">View Details</a>
+    </div>
+
+    <div class="state-card">
+        <img src="https://www.heritagetoursorissa.com/wp-content/uploads/2023/07/jagannath-darshan-puri-a-divine-pilgrimage-experience-is-a-sacred-journey-that-connects-believers-with-the-lord-of-the-universe-lord-jagannath.jpg" alt="Jagannath Temple">
+        <h2>Odisha</h2>
+        <p><strong>Famous Place:</strong> Jagannath Temple</p>
+        <a href="jagannath.html">View Details</a>
+    </div>
+
+    <div class="state-card">
+        <img src="https://chardhambooking.com/wp-content/uploads/2021/01/Lotus-Tmple-Photo-by-Arpan-Das.jpg" alt="Lotus Temple">
+        <h2>Delhi</h2>
+        <p><strong>Famous Place:</strong> Lotus Temple</p>
+        <a href="lotus-temple.html">View Details</a>
+    </div>
+    <div class="state-card">
+        <img src="https://media.istockphoto.com/id/1268716417/photo/misty-tirupathi.jpg?s=612x612&w=0&k=20&c=6tcFZEteaY9mOhZADzIRo8b8NmUqCEmsO6ZIgbfjGW0=" alt="Tirupati  Balaji Temple">
+        <h2>Andhra Pradesh</h2>
+        <p><strong>Famous Place:</strong>Tirupati Balaji Temple</p>
+        <a href="tirupati.html">View Details</a>
+    </div>
+    <div class="state-card">
+        <img src="https://plutotours.in/places/wp-content/uploads/2023/12/Sela-Pass-4.webp" alt="Tawang">
+        <h2>Arunachal Pradesh</h2>
+        <p><strong>Famous Place:</strong>Tawang</p>
+        <a href="tawang.html">View Details</a>
+    </div>
+    <div class="state-card">
+        <img src="https://www.insideindianjungles.com/wp-content/uploads/2019/07/kaziranga.jpg" alt="Kaziranga national park">
+        <h2>Assam</h2>
+        <p><strong>Famous Place:</strong>Kaziranga national park  </p>
+        <a href="kaziranga.html">View Details</a>
+    </div>
+    <div class="state-card">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/3e/36/95/baga-sea-beach.jpg?w=1200&h=-1&s=1" alt="baga beach">
+        <h2>Goa</h2>
+        <p><strong>Famous Place:</strong>baga beach</p>
+        <a href="bagabeach.html">View Details</a>
+    </div>
+    <div class="state-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFRDEgryG-fy8rFztQkVWm6lbOp5kxmpU6LA&s" alt="Statue of unity">
+        <h2>Gujarat</h2>
+        <p><strong>Famous Place:</strong>Statue of unity</p>
+        <a href="sou.html">View Details</a>
+    </div>
+    <div class="state-card">
+        <img src="https://discoverkullumanali.in/wp-content/uploads/2019/10/Tourists-enjoy-snow-at-Rohtang-pass-6.jpg" alt="Rohtang pass">
+        <h2>himachal Pradesh</h2>
+        <p><strong>Famous Place:</strong>Rohtang pass</p>
+        <a href="rohtangpass.html">View Details</a>
+    </div>
+    <div class="state-card">
+        <img src="https://5.imimg.com/data5/KR/DI/GLADMIN-1328857/4-day-kerala-backwater-tour-in-alleppey.png" alt="Allepy">
+        <h2>Kerala</h2>
+        <p><strong>Famous Place:</strong>Allepy Back Waters</p>
+        <a href="allepy.html">View Details</a>
+    </div>
+    <div class="state-card">
+        <img src="https://s7ap1.scene7.com/is/image/incredibleindia/gateway-of-india-mumbai-maharashtra-2-attr-hero?qlt=82&ts=1727355556744" alt="Mumbai">
+        <h2>Maharashtra</h2>
+        <p><strong>Famous Place:</strong>Gate Way Of India</p>
+        <a href="gatewayof.html">View Details</a>
+    </div>
+    <div class="state-card">
+        <img src="https://www.captureatrip.com/_next/image?url=https%3A%2F%2Fcaptureatrip-cms-storage.s3.ap-south-1.amazonaws.com%2FBest_Time_to_Visit_Cherrapunji_e157f9b879.jpg&w=3840&q=50" alt="Cherapunji">
+        <h2>Meghalaya</h2>
+        <p><strong>Famous Place:</strong>Cherapunji</p>
+        <a href="cherapunji.html">View Details</a>
+    </div>
+    <div class="state-card">
+        <img src="https://roytellstales.com/wp-content/uploads/2020/01/IMG_20191210_1600370001-scaled.jpg" alt="Kohima">
+        <h2>Nagaland</h2>
+        <p><strong>Famous Place:</strong>Dzokou Velly</p>
+        <a href="dzokou.html">View Details</a>
+    </div>
+    <div class="state-card">
+        <img src="https://www.rajasthantourplanner.com/blog/wp-content/uploads/2021/11/Jaisalmer-Fort.jpg" alt="Jaisalarmer">
+        <h2>Rajasthan</h2>
+        <p><strong>Famous Place:</strong>Jaisalarmer</p>
+        <a href="jaisalamer.html">View Details</a>
+    </div>
+    <div class="state-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg1mBTpcTolndnp9xq-oU2rhODjn1uNtxzNg&s" alt="Gangtok">
+        <h2>Sikkim</h2>
+        <p><strong>Famous Place:</strong>Gangtok</p>
+        <a href="gangtok.html">View Details</a>
+    </div>
+    <div class="state-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_lFudJCLtxHVeUlxssm_DT3aiWH4xhQS2zw&s" alt="Madurai">
+        <h2>Tamil Nadu</h2>
+        <p><strong>Famous Place:</strong>Meenakshi Temple</p>
+        <a href="meenakshi.html">View Details</a>
+    </div>
+    <div class="state-card">
+        <img src="https://cdn1.prayagsamagam.com/media/2023/05/24212654/kedarnath-4.webp" alt="Kedarnath">
+        <h2>Uttrakhand</h2>
+        <p><strong>Famous Place:</strong>Kedarnath</p>
+        <a href="kedarnath.html">View Details</a>
+    </div>
+    <div class="state-card">
+        <img src="https://cdn.britannica.com/74/127174-050-4E634E93/Victoria-Memorial-Hall-Kolkata-India-West-Bengal.jpg" alt="Kolkata">
+        <h2>West Bengal</h2>
+        <p><strong>Famous Place:</strong>Kolkata</p>
+        <a href="kolkata.html">View Details</a>
+    </div>
+    
+    <!-- You can continue adding for all 28 states and 8 union territories -->
+    <!-- Add places for Goa, Kerala, Gujarat, Jammu and Kashmir, etc. -->
+
+</section>
+
+<footer>
+    <p>© 2025 SAFARSATHI - Your Travel Guide Across India</p>
+</footer>
+
+</body>
+</html>
